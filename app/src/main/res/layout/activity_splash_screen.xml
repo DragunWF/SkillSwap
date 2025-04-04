@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="150dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:layout_marginStart="40dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/baseline_swap_vert_24" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="SkillSwap"
+                android:textColor="@color/primary"
+                android:textSize="48dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="Learn, Teach and Connect."
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/registerBtn"
+            android:layout_width="400dp"
+            android:layout_height="52dp"
+            android:layout_gravity="center"
+            app:cornerRadius="17dp"
+            android:textSize="20dp"
+            android:background="@drawable/button_bg"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="180dp"
+            android:layout_marginBottom="20dp"
+            android:text="Register" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/loginBtn"
+            android:layout_width="400dp"
+            android:layout_height="52dp"
+            android:layout_gravity="center"
+            app:cornerRadius="17dp"
+            android:textSize="20dp"
+            android:backgroundTint="@color/primary"
+            android:textColor="@color/black"
+            app:strokeColor="@color/black"
+            app:strokeWidth="2dp"
+            android:fontFamily="sans-serif"
+            android:text="Login" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

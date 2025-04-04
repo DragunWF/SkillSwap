@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddListing">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="30dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/backBtn"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="100dp"
+                        app:srcCompat="@drawable/baseline_arrow_back_24" />
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/imageView"
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+
+                                android:scaleType="fitXY"
+                                app:srcCompat="@drawable/baseline_swap_vert_24" />
+
+                            <TextView
+                                android:id="@+id/textView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight="1"
+                                android:fontFamily="sans-serif-black"
+                                android:text="SkillSwap"
+                                android:textColor="@color/primary"
+                                android:textSize="29dp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="sans-serif-condensed-light"
+                            android:text="Learn, Teach and Connect."
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Add New Listing: "
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Skill Category:"
+                    android:textSize="17dp"
+                    android:textStyle="normal" />
+
+                <androidx.appcompat.widget.AppCompatSpinner
+                    android:id="@+id/skillCategorySpinner"
+                    android:layout_width="200dp"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/search_spinner_bg"
+                    android:paddingStart="3dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Featured Skill:"
+                    android:textSize="17dp"
+                    android:textStyle="normal" />
+
+                <androidx.appcompat.widget.AppCompatSpinner
+                    android:id="@+id/featuredSkillSpinner"
+                    android:layout_width="200dp"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/search_spinner_bg"
+                    android:paddingStart="3dp" />
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Max. learning Time:"
+                    android:textSize="17dp"
+                    android:textStyle="normal" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        app:boxCornerRadiusBottomEnd="17dp"
+                        app:boxCornerRadiusBottomStart="17dp"
+                        app:boxCornerRadiusTopEnd="17dp"
+                        app:boxCornerRadiusTopStart="17dp"
+                        app:boxStrokeColor="@color/secondary"
+                        app:boxStrokeWidth="2dp"
+                        app:boxStrokeWidthFocused="3dp"
+                        app:counterEnabled="true"
+                        app:counterMaxLength="3"
+                        app:counterTextColor="@color/secondary"
+                        app:hintTextColor="@color/secondary">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/timeText"
+                            android:layout_width="match_parent"
+                            android:layout_height="52dp"
+                            android:fontFamily="sans-serif-condensed-light"
+                            android:hint="no. of hr/day: "
+                            android:inputType="number"
+                            android:maxLength="3" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <androidx.appcompat.widget.AppCompatSpinner
+                        android:id="@+id/timeSpinner"
+                        android:layout_width="200dp"
+                        android:layout_height="52dp"
+                        android:layout_marginStart="20dp"
+                        android:background="@drawable/search_spinner_bg"
+                        android:paddingStart="3dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Skill level:"
+                    android:textSize="17dp"
+                    android:textStyle="normal" />
+
+                <androidx.appcompat.widget.AppCompatSpinner
+                    android:id="@+id/skillLevelSpinner"
+                    android:layout_width="200dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/search_spinner_bg"
+                    android:paddingStart="3dp"
+                    android:layout_marginBottom="10dp"/>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    app:boxCornerRadiusBottomEnd="17dp"
+                    app:boxCornerRadiusBottomStart="17dp"
+                    app:boxCornerRadiusTopEnd="17dp"
+                    app:boxCornerRadiusTopStart="17dp"
+                    app:boxStrokeColor="@color/secondary"
+                    app:boxStrokeWidth="2dp"
+                    app:boxStrokeWidthFocused="3dp"
+                    app:counterEnabled="true"
+                    app:counterMaxLength="525"
+                    app:counterTextColor="@color/secondary"
+                    app:hintTextColor="@color/secondary">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/descriptionText"
+                        android:layout_width="match_parent"
+                        android:layout_height="52dp"
+                        android:fontFamily="sans-serif-condensed-light"
+                        android:hint="Description: "
+                        android:maxLength="525"
+
+                        />
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    app:boxCornerRadiusBottomEnd="17dp"
+                    app:boxCornerRadiusBottomStart="17dp"
+                    app:boxCornerRadiusTopEnd="17dp"
+                    app:boxCornerRadiusTopStart="17dp"
+                    app:boxStrokeColor="@color/secondary"
+                    app:boxStrokeWidth="2dp"
+                    app:boxStrokeWidthFocused="3dp"
+                    app:counterEnabled="true"
+                    app:counterMaxLength="128"
+                    app:counterTextColor="@color/secondary"
+                    app:hintTextColor="@color/secondary">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/contactOptionText"
+                        android:layout_width="match_parent"
+                        android:layout_height="52dp"
+                        android:fontFamily="sans-serif-condensed-light"
+                        android:hint="Contact Options: "
+                        android:maxLength="525"
+
+                        />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/confirmBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:layout_marginTop="30dp"
+                    android:backgroundTint="@color/primary"
+                    android:text="Confirm"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="normal"
+                    app:strokeColor="@color/black"
+                    app:strokeWidth="2dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Dragun</string>
+    <string-array name="skill_categories">
+        <item>Technology and Coding</item>
+        <item>Arts and Crafts</item>
+        <item>Fitness and Wellness</item>
+        <item>Language and Communication</item>
+        <item>Business and Finance</item>
+    </string-array>
+    <string-array name="skill_categories_main">
+        <item>Any</item>
+        <item>Technology and Coding</item>
+        <item>Arts and Crafts</item>
+        <item>Fitness and Wellness</item>
+        <item>Language and Communication</item>
+        <item>Business and Finance</item>
+    </string-array>
+    <string-array name="tech_skill">
+        <item>Intro to Python</item>
+        <item>Web Development Basics</item>
+        <item>How to Set Up a Smart Home</item>
+    </string-array>
+    <string-array name="arts_skill">
+        <item>Digital Illustration for Beginners</item>
+        <item>DIY Home Decor</item>
+        <item>Calligraphy and Hand Lettering</item>
+    </string-array>
+    <string-array name="fitness_skill">
+        <item>Meditation Techniques</item>
+        <item>Strength Training for Beginners</item>
+        <item>Basic Yoga Poses</item>
+    </string-array>
+    <string-array name="language_skill">
+        <item>Conversational Spanish</item>
+        <item>Public Speaking and Confidence Building</item>
+        <item>Writing a Resume that Stands Out</item>
+    </string-array>
+    <string-array name="business_skill">
+        <item>Basics of Stock Market Investing</item>
+        <item>Social Media Marketing for Small Businesses</item>
+        <item>Time Management Strategies</item>
+    </string-array>
+    <string-array name="learning_time">
+        <item>Hours</item>
+        <item>Days</item>
+        <item>Months</item>
+    </string-array>
+    <string-array name="skill_level">
+        <item>Beginner</item>
+        <item>Intermediate</item>
+        <item>Advanced</item>
+    </string-array>
+</resources>
