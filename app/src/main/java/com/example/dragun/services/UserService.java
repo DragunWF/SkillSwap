@@ -14,6 +14,8 @@ public class UserService {
         bank.add(user);
     }
 
+    // I have violated the DRY principle
+    // Forgive me father for I have sinned...
     public static boolean isUsernameExists(String username) {
         for (User user : DatabaseHelper.getUsersBank().getAll()) {
             if (user.getUsername().equals(username)) {

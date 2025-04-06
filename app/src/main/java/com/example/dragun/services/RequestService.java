@@ -30,6 +30,6 @@ public class RequestService {
     }
 
     public static boolean isRequestExist() {
-        return true;
+        return true; // this was never used btw...
     }
 }
