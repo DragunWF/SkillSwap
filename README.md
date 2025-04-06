@@ -76,18 +76,56 @@ A mobile app that connects people who want to learn with those willing to each w
 
 ### Splash Screen
 
+<div class="image-container">
+    <img src="img/SplashScreen.png" alt="SplashScreen.png" width="300"/>
+</div>
+
 ### Login and Registration Form
+
+<div class="image-container">
+    <img src="img/LoginForm.png" alt="LoginForm.png" width="300"/>
+    <img src="img/RegistrationForm.png" alt="RegistrationForm.png" width="300"/>
+</div>
 
 ### Main Activity
 
+<div class="image-container">
+    <img src="img/MainActivity1.png" alt="MainActivity1.png" width="300"/>
+    <img src="img/MainActivity2.png" alt="MainActivity2.png" width="300"/>
+</div>
+
 ### Add Posting Activity
+
+<div class="image-container">
+    <img src="img/AddListing1.png" alt="AddListing1.png" width="300"/>
+    <img src="img/AddListing2.png" alt="AddListing2.png" width="300"/>
+</div>
 
 ### View Posting Activity
 
-### Bookmarks Activity
+<div class="image-container">
+    <img src="img/ViewListing1.png" alt="ViewListing1.png" width="300"/>
+    <img src="img/ViewListing2.png" alt="ViewListing2.png" width="300"/>
+    <img src="img/ViewListing3.png" alt="ViewListing3.png" width="300"/>
+    <img src="img/ViewListing4.png" alt="ViewListing4.png" width="300"/>
+</div>
 
 ### Profile Activity
 
-### View "My Listings" Activity
+<div class="image-container">
+    <img src="img/ProfileView1.png" alt="ProfileView1.png" width="300"/>
+    <img src="img/ProfileView2.png" alt="ProfileView2.png" width="300"/>
+</div>
+
+### Bookmarks & "My Listings" Activity
+
+<div class="image-container">
+    <img src="img/BookmarkList.png" alt="BookmarkList.png" width="300"/>
+    <img src="img/MyListing.png" alt="MyListing.png" width="300"/>
+</div>
 
 ### Session Requests Activity
+
+<div class="image-container">
+    <img src="img/RequestList.png" alt="RequestList.png" width="300"/>
+</div>
