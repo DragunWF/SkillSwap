@@ -8,7 +8,7 @@
 
 ## Description
 
-This is the winning project (Champion) developed by the representatives of STI Ortigas-Cainta during the **Tagisan ng Talino 2025 CodeFest – Cluster 1**. Built in just **6 hours** within a computer laboratory at the academic building, this app was conceptualized, developed, and awarded all on the same day, **April 4, 2025**. The project showcases rapid development, teamwork, and innovative problem-solving under intense time pressure.
+This is the **winning project (Champion)** developed by the representatives of **STI Ortigas-Cainta** during the **Tagisan ng Talino 2025 CodeFest – Cluster 1**. Competing against the representatives of other **STI Colleges**, the team built this app in just **6 hours** inside a computer laboratory at the academic building. The app was conceptualized, developed, and awarded **all on the same day**, **April 4, 2025**. The project showcases rapid development, teamwork, and innovative problem-solving under intense time pressure.
 
 ### Team Members
 
