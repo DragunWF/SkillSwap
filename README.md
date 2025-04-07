@@ -16,6 +16,11 @@ This is the **winning project (Champion)** developed by the representatives of *
 - [Jay Arnon Sinahunon (JasDevPH)](https://github.com/JasDevPH)
 - [Isaac Alan Severino (Aysaaak)](https://github.com/Aysaaak)
 
+### Android Specifications
+
+- Android API Level 24 (Nougat)
+- 1800x2400 6 inches screen size
+
 ## Problem Statement
 
 ### SkillSwap - Learn, Teach, Connect
