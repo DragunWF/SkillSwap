@@ -33,43 +33,43 @@ A mobile app that connects people who want to learn with those willing to each w
 
 1. Develop a mobile app that allows users to offer and request skill-sharing sessions across various categories.
 2. The app shall consists of two (2) main menus:
-   - **Skill Categories**
-     - Technology & Coding
-     - Arts & Crafts
-     - Fitness & Wellness
-     - Language & Communication
-     - Business & Finance
-   - **Skill Listings** (Alphabetized list of all available skills (not categories) and mentors)
+   - [x] **Skill Categories**
+     - [x] Technology & Coding
+     - [x] Arts & Crafts
+     - [x] Fitness & Wellness
+     - [x] Language & Communication
+     - [x] Business & Finance
+   - [x] **Skill Listings** (Alphabetized list of all available skills (not categories) and mentors)
 3. The following are the featured skills offered in each category:
-   - **Technology & Coding**
-     - Intro to Python
-     - Web Development Basics
-     - How to Set Up a Smart Home
-   - **Arts & Crafts**
-     - Digital Illustration for Beginners
-     - DIY Home Decor
-     - Calligraphy & Hand Lettering
-   - **Fitness & Wellness**
-     - Meditation Techniques
-     - Strength Training for Beginners
-     - Basic Yoga Poses
-   - **Language & Communication**
-     - Conversational Spanish
-     - Public Speaking & Confidence Building
-     - Writing a Resume that Stands Out
-   - **Business & Finance**
-     - Basics of Stock Market Investing
-     - Social Media Marketing for Small Businesses
-     - Time Management Strategies
+   - [x] **Technology & Coding**
+     - [x] Intro to Python
+     - [x] Web Development Basics
+     - [x] How to Set Up a Smart Home
+   - [x] **Arts & Crafts**
+     - [x] Digital Illustration for Beginners
+     - [x] DIY Home Decor
+     - [x] Calligraphy & Hand Lettering
+   - [x] **Fitness & Wellness**
+     - [x] Meditation Techniques
+     - [x] Strength Training for Beginners
+     - [x] Basic Yoga Poses
+   - [x] **Language & Communication**
+     - [x] Conversational Spanish
+     - [x] Public Speaking & Confidence Building
+     - [x] Writing a Resume that Stands Out
+   - [x] **Business & Finance**
+     - [x] Basics of Stock Market Investing
+     - [x] Social Media Marketing for Small Businesses
+     - [x] Time Management Strategies
 4. Below are the app's required features and functionalities:
-   - **Skill Listings & Profiles**
-     - Users can browse available skills, read descriptions, and view mentor profiles.
-     - Each listing includes details such as skill level, estimated learning time, and contact options.
-   - **Skill Exchange Request**
-     - Users can request a session with a mentor.
-     - Sessions can be in-person or virtual, based on user preference.
-   - **Favorites & Saved Skills**
-     - Users can bookmark skills they are interested in learning later.
+   - [x] **Skill Listings & Profiles**
+     - [x] Users can browse available skills, read descriptions, and view mentor profiles.
+     - [x] Each listing includes details such as skill level, estimated learning time, and contact options.
+   - [x] **Skill Exchange Request**
+     - [x] Users can request a session with a mentor.
+     - [x] Sessions can be in-person or virtual, based on user preference.
+   - [x] **Favorites & Saved Skills**
+     - [x] Users can bookmark skills they are interested in learning later.
 
 #### Notes:
 
