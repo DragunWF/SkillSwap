@@ -1,4 +1,4 @@
-# SkillSwap
+# SkillSwap - 6-Hour Hackathon Submission
 
 ## Table of Contents
 
