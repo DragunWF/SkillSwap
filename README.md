@@ -21,6 +21,13 @@ This is the **winning project (Champion)** developed by the representatives of *
 - Android API Level 24 (Nougat)
 - 1800x2400 6 inches screen size
 
+
+## 🏆 Codefest Journey
+
+- 🥇 [**Tagisan ng Talino Codefest 2025: Local Level** — _DragunCafe_](https://github.com/DragunWF/DragunCafe) — _Champion_
+- 🥇 [**Tagisan ng Talino Codefest 2025: Cluster Level** — _SkillSwap_](https://github.com/DragunWF/SkillSwap) — _Champion_
+- 🎖️ [**Tagisan ng Talino Codefest 2025: National Level** — _Transpend_](https://github.com/DragunWF/Transpend) — _Finalist_
+
 ## Problem Statement
 
 ### SkillSwap - Learn, Teach, Connect
